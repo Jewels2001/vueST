@@ -9,7 +9,11 @@ module.exports = {
       'purpleLight': "#E85BF0",
       'orangeLight': "#F0D373"
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'bottom-curve': "url('/background2.png')",
+      }
+    },
   },
   plugins: [],
 }

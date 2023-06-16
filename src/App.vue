@@ -47,7 +47,7 @@ export default {
       </div>
       <!-- <TheWelcome /> -->
      
-      <div class="div-pad max-h-80 h-60">
+      <div class="div-pad grow max-h-80 h-60 bg-bottom-curve bg-cover bg-center">
         <p> This is the bottom half</p>
          <component :is="currentView" />
       </div>

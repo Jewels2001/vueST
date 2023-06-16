@@ -4,6 +4,6 @@
 
 @layer base {
     .div-pad {
-        @apply p-2 top-0 right-0 h-10 w-full;
+        @apply p-2 top-0 right-0 w-full;
     }
 }
