@@ -26,5 +26,11 @@ export default {
         <p>The counter is at: {{ count }}</p>
         <h1 className="text-3xl font-bold underline"> Yoooo </h1>
     </div>
+    <div class="div-pad grow">
+    </div>
+          <div class="div-pad grow max-h-80 h-60 ">
+            <p> This is the bottom half</p>
+             <component :is="currentView" />
+          </div>
     
 </template>

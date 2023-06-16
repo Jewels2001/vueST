@@ -8,10 +8,12 @@ import TopBar from './components/TopBar.vue'
 import Home from './components/HomePage.vue'
 import ShipPage from './components/ShipPage.vue'
 import NotFound from './components/404.vue'
+import Status from './components/Status.vue'
 
 const routes = {
   '/': Home,
   '/ship': ShipPage,
+  '/status': Status,
 }
 
 export default {
@@ -37,21 +39,9 @@ export default {
 <template>
   <main class="flex flex-col h-screen">
     <TopBar />
-    <!-- <div class="h-full"> -->
-      <div class="div-pad grow">
-        <ShipPage />
-        <!-- <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-            <HelloWorld msg="You did it!" />
-            <a href="#/">Home</a> | <a href="#/na"></a> -->
-  
-      </div>
-      <!-- <TheWelcome /> -->
-     
-      <div class="div-pad grow max-h-80 h-60 bg-bottom-curve bg-cover bg-center">
-        <p> This is the bottom half</p>
-         <component :is="currentView" />
-      </div>
-   <!-- </div> -->
+    <div class="div-pad flex flex-col grow bg-bottom-curve bg-cover bg-center">
+      <component :is="currentView" />
+    </div>
   </main>
 
   

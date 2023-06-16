@@ -34,6 +34,7 @@
 /* semantic color variables for this project */
 :root {
   --color-text: var(--cp-white);
+  --color-background: var(--cp-grey1);
   /*
   --color-background: var(--vt-c-white);
   --color-background-soft: var(--vt-c-white-soft);

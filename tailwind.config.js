@@ -11,7 +11,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'bottom-curve': "url('/background2.png')",
+        'bottom-curve': "url('/background1.png')",
       }
     },
   },
